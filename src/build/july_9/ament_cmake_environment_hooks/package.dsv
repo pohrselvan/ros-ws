@@ -1,0 +1,4 @@
+source;share/july_9/local_setup.bash
+source;share/july_9/local_setup.dsv
+source;share/july_9/local_setup.sh
+source;share/july_9/local_setup.zsh

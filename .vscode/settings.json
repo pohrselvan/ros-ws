@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages",
+        "/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages",
+        "/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
