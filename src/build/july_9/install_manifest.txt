@@ -6,11 +6,14 @@
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/imu.xacro
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/ros2_control_wheel.xacro
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot_core.xacro
+/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/new_launch.launch.py
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/rsp.launch.py
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/launch_sim.launch.py
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/orange_igvc.launch.py
-/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/world_launch.launch.py
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/wheel_controller.yaml
+/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config.rviz
+/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/mapper_params_online_async.yaml
+/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config_2.rviz
 /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds/orange_world.world
 /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/package_run_dependencies/july_9
 /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/parent_prefix_path/july_9
