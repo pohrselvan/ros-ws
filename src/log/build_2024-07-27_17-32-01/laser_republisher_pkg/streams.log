@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg -- -j4 -l4
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target laser_republisher[0m
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_republisher.dir/src/laser_republisher_node.cpp.o[0m
+[18.477s] [100%] [32m[1mLinking CXX executable laser_republisher[0m
+[19.502s] [100%] Built target laser_republisher
+[19.528s] Invoked command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg -- -j4 -l4
+[19.602s] Invoking command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg
+[19.619s] -- Install configuration: ""
+[19.619s] -- Installing: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/laser_republisher_pkg/laser_republisher
+[19.635s] -- Set runtime path of "/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/laser_republisher_pkg/laser_republisher" to ""
+[19.636s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/ament_index/resource_index/package_run_dependencies/laser_republisher_pkg
+[19.636s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/ament_index/resource_index/parent_prefix_path/laser_republisher_pkg
+[19.637s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/ament_prefix_path.sh
+[19.637s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/ament_prefix_path.dsv
+[19.638s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/path.sh
+[19.640s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/path.dsv
+[19.641s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.bash
+[19.641s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.sh
+[19.642s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.zsh
+[19.642s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.dsv
+[19.643s] -- Installing: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.dsv
+[19.643s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/ament_index/resource_index/packages/laser_republisher_pkg
+[19.643s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/cmake/laser_republisher_pkgConfig.cmake
+[19.644s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/cmake/laser_republisher_pkgConfig-version.cmake
+[19.644s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.xml
+[19.645s] Invoked command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg

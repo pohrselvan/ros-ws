@@ -22,7 +22,7 @@
     </link>
 
     <joint name="chassis to lidar" type="fixed">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="lidar_scanner"/>
         <origin xyz="0.12 0.0 0.12" rpy="0.0 0.0 0.0"/>
         
@@ -33,25 +33,25 @@
         <sensor name="laser" type="ray" >
             <pose>0 0 0 0 0</pose>
             <visualize>true</visualize>
-            <update_rate>20</update_rate>
+            <update_rate>1</update_rate>
             <ray> 
                 <scan>
                     <horizontal>
                         <samples>60</samples>
-                        <resolution>1</resolution>
+                        <!-- <resolution>0.001</resolution> -->
                         <min_angle>-3.14</min_angle>
                         <max_angle>3.14</max_angle>
                     </horizontal>
                 </scan>
                 <range>
                     <min>0.3</min>
-                    <max>12</max>
-                    <resolution>0.01</resolution>
+                    <max>20</max>
+                    <!-- <resolution>1</resolution> -->
                 </range>
             </ray>
             <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so"><!--interact with gazebo -->
                 <ros>
-                    <argument>~/out:=scan</argument>
+                    <remap>~/out:=scan</remap>
                 </ros>
                 <output_type>sensor_msgs/LaserScan</output_type>
                 <frame_name>laser_frame</frame_name>

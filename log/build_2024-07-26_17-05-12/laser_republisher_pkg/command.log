@@ -1,0 +1,2 @@
+Invoking command in '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg': /usr/bin/cmake /home/pohrselvan/ros2_ws/src/laser_republisher_pkg -DCMAKE_INSTALL_PREFIX=/home/pohrselvan/ros2_ws/install/laser_republisher_pkg
+Invoked command in '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg' returned '1': /usr/bin/cmake /home/pohrselvan/ros2_ws/src/laser_republisher_pkg -DCMAKE_INSTALL_PREFIX=/home/pohrselvan/ros2_ws/install/laser_republisher_pkg

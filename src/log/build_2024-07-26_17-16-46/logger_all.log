@@ -1,0 +1,191 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75c1a3d40c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75c1a3e417e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75c1a3e417e0>>)
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pohrselvan/ros2_ws/src'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(july_9) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'july_9' with type 'ros.ament_cmake' and name 'july_9'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(laser_republisher_pkg) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'laser_republisher_pkg' with type 'ros.ament_cmake' and name 'laser_republisher_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.302s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/pohrselvan/ros2_ws/src/install
+[0.302s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pohrselvan/ros2_ws/install
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/pohrselvan/orange_ros2/install
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/humble
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'laser_republisher_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'laser_republisher_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg', 'merge_install': False, 'path': '/home/pohrselvan/ros2_ws/src/laser_republisher_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'july_9' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'july_9' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pohrselvan/ros2_ws/src/build/july_9', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pohrselvan/ros2_ws/src/install/july_9', 'merge_install': False, 'path': '/home/pohrselvan/ros2_ws/src/july_9', 'symlink_install': False, 'test_result_base': None}
+[0.380s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.382s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pohrselvan/ros2_ws/src/laser_republisher_pkg' with build type 'ament_cmake'
+[0.383s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pohrselvan/ros2_ws/src/laser_republisher_pkg'
+[0.385s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg -- -j4 -l4
+[10.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg -- -j4 -l4
+[10.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg
+[10.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_republisher_pkg)
+[10.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg
+[10.280s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg' for CMake module files
+[10.280s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg' for CMake config files
+[10.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_republisher_pkg', 'cmake_prefix_path')
+[10.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/hook/cmake_prefix_path.ps1'
+[10.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/hook/cmake_prefix_path.dsv'
+[10.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/hook/cmake_prefix_path.sh'
+[10.282s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib'
+[10.283s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/bin'
+[10.283s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/pkgconfig/laser_republisher_pkg.pc'
+[10.283s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/python3.10/site-packages'
+[10.283s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/bin'
+[10.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.ps1'
+[10.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.dsv'
+[10.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.sh'
+[10.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.bash'
+[10.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.zsh'
+[10.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/colcon-core/packages/laser_republisher_pkg)
+[10.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_republisher_pkg)
+[10.310s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg' for CMake module files
+[10.310s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg' for CMake config files
+[10.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_republisher_pkg', 'cmake_prefix_path')
+[10.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/hook/cmake_prefix_path.ps1'
+[10.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/hook/cmake_prefix_path.dsv'
+[10.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/hook/cmake_prefix_path.sh'
+[10.312s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib'
+[10.312s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/bin'
+[10.312s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/pkgconfig/laser_republisher_pkg.pc'
+[10.312s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/python3.10/site-packages'
+[10.312s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/bin'
+[10.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.ps1'
+[10.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.dsv'
+[10.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.sh'
+[10.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.bash'
+[10.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.zsh'
+[10.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/colcon-core/packages/laser_republisher_pkg)
+[10.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pohrselvan/ros2_ws/src/july_9' with build type 'ament_cmake'
+[10.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pohrselvan/ros2_ws/src/july_9'
+[10.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pohrselvan/ros2_ws/src/build/july_9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/july_9 -- -j4 -l4
+[10.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pohrselvan/ros2_ws/src/build/july_9' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/july_9 -- -j4 -l4
+[10.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pohrselvan/ros2_ws/src/build/july_9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/july_9
+[10.400s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(july_9)
+[10.400s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9' for CMake module files
+[10.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pohrselvan/ros2_ws/src/build/july_9' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/july_9
+[10.402s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9' for CMake config files
+[10.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('july_9', 'cmake_prefix_path')
+[10.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/hook/cmake_prefix_path.ps1'
+[10.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/hook/cmake_prefix_path.dsv'
+[10.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/hook/cmake_prefix_path.sh'
+[10.404s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/bin'
+[10.404s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/lib/pkgconfig/july_9.pc'
+[10.404s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/lib/python3.10/site-packages'
+[10.405s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/bin'
+[10.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.ps1'
+[10.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.dsv'
+[10.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.sh'
+[10.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.bash'
+[10.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.zsh'
+[10.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pohrselvan/ros2_ws/src/install/july_9/share/colcon-core/packages/july_9)
+[10.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(july_9)
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9' for CMake module files
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9' for CMake config files
+[10.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('july_9', 'cmake_prefix_path')
+[10.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/hook/cmake_prefix_path.ps1'
+[10.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/hook/cmake_prefix_path.dsv'
+[10.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/hook/cmake_prefix_path.sh'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/bin'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/lib/pkgconfig/july_9.pc'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/lib/python3.10/site-packages'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/pohrselvan/ros2_ws/src/install/july_9/bin'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.ps1'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.dsv'
+[10.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.sh'
+[10.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.bash'
+[10.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.zsh'
+[10.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pohrselvan/ros2_ws/src/install/july_9/share/colcon-core/packages/july_9)
+[10.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.433s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.438s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.438s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.438s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.452s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pohrselvan/ros2_ws/src/install/local_setup.ps1'
+[10.454s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pohrselvan/ros2_ws/src/install/_local_setup_util_ps1.py'
+[10.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pohrselvan/ros2_ws/src/install/setup.ps1'
+[10.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pohrselvan/ros2_ws/src/install/local_setup.sh'
+[10.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pohrselvan/ros2_ws/src/install/_local_setup_util_sh.py'
+[10.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pohrselvan/ros2_ws/src/install/setup.sh'
+[10.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pohrselvan/ros2_ws/src/install/local_setup.bash'
+[10.460s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pohrselvan/ros2_ws/src/install/setup.bash'
+[10.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pohrselvan/ros2_ws/src/install/local_setup.zsh'
+[10.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pohrselvan/ros2_ws/src/install/setup.zsh'

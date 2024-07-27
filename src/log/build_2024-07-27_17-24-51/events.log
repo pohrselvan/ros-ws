@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.001137] (laser_republisher_pkg) JobQueued: {'identifier': 'laser_republisher_pkg', 'dependencies': OrderedDict()}
+[0.001538] (my_tf2_broadcaster) JobQueued: {'identifier': 'my_tf2_broadcaster', 'dependencies': OrderedDict()}
+[0.001856] (july_9) JobQueued: {'identifier': 'july_9', 'dependencies': OrderedDict([('laser_republisher_pkg', '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg')])}
+[0.001926] (laser_republisher_pkg) JobStarted: {'identifier': 'laser_republisher_pkg'}
+[0.023157] (my_tf2_broadcaster) JobStarted: {'identifier': 'my_tf2_broadcaster'}
+[0.047929] (laser_republisher_pkg) JobProgress: {'identifier': 'laser_republisher_pkg', 'progress': 'cmake'}
+[0.049529] (laser_republisher_pkg) JobProgress: {'identifier': 'laser_republisher_pkg', 'progress': 'build'}
+[0.051225] (laser_republisher_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pohrselvan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pohrselvan'), ('OLDPWD', '/home/pohrselvan'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1446'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pohrselvan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pohrselvan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1419,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8648149_354c_4f08_80e9_0e30e842355e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble')]), 'shell': False}
+[0.099329] (-) TimerEvent: {}
+[0.199843] (-) TimerEvent: {}
+[0.239517] (laser_republisher_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_republisher.dir/src/laser_republisher_node.cpp.o\x1b[0m\n'}
+[0.299982] (-) TimerEvent: {}
+[0.400500] (-) TimerEvent: {}
+[0.501209] (-) TimerEvent: {}
+[0.602268] (-) TimerEvent: {}
+[0.703348] (-) TimerEvent: {}
+[0.803919] (-) TimerEvent: {}
+[0.904488] (-) TimerEvent: {}
+[1.006671] (-) TimerEvent: {}
+[1.107237] (-) TimerEvent: {}
+[1.207830] (-) TimerEvent: {}
+[1.308379] (-) TimerEvent: {}
+[1.408911] (-) TimerEvent: {}
+[1.509479] (-) TimerEvent: {}
+[1.610093] (-) TimerEvent: {}
+[1.710951] (-) TimerEvent: {}
+[1.811559] (-) TimerEvent: {}
+[1.912125] (-) TimerEvent: {}
+[2.012680] (-) TimerEvent: {}
+[2.113673] (-) TimerEvent: {}
+[2.116239] (my_tf2_broadcaster) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_tf2_broadcaster', 'build', '--build-base', '/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/build', 'install', '--record', '/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/install.log', '--single-version-externally-managed'], 'cwd': '/home/pohrselvan/ros2_ws/src/my_tf2_broadcaster', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pohrselvan', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/pohrselvan', 'OLDPWD': '/home/pohrselvan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1446', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'pohrselvan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pohrselvan', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1419,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1419', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a8648149_354c_4f08_80e9_0e30e842355e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools'}, 'shell': False}
+[2.213838] (-) TimerEvent: {}
+[2.314450] (-) TimerEvent: {}
+[2.415006] (-) TimerEvent: {}
+[2.515523] (-) TimerEvent: {}
+[2.616072] (-) TimerEvent: {}
+[2.717144] (-) TimerEvent: {}
+[2.818181] (-) TimerEvent: {}
+[2.918744] (-) TimerEvent: {}
+[2.968747] (my_tf2_broadcaster) StdoutLine: {'line': b'running egg_info\n'}
+[2.972038] (my_tf2_broadcaster) StdoutLine: {'line': b'writing ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/PKG-INFO\n'}
+[2.972616] (my_tf2_broadcaster) StdoutLine: {'line': b'writing dependency_links to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/dependency_links.txt\n'}
+[2.976928] (my_tf2_broadcaster) StdoutLine: {'line': b'writing entry points to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/entry_points.txt\n'}
+[2.977319] (my_tf2_broadcaster) StdoutLine: {'line': b'writing requirements to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/requires.txt\n'}
+[2.977580] (my_tf2_broadcaster) StdoutLine: {'line': b'writing top-level names to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/top_level.txt\n'}
+[2.982188] (my_tf2_broadcaster) StderrLine: {'line': b"package init file 'src/__init__.py' not found (or not a regular file)\n"}
+[2.982579] (my_tf2_broadcaster) StdoutLine: {'line': b"reading manifest file '../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/SOURCES.txt'\n"}
+[2.984058] (my_tf2_broadcaster) StdoutLine: {'line': b"writing manifest file '../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/SOURCES.txt'\n"}
+[2.984608] (my_tf2_broadcaster) StdoutLine: {'line': b'running build\n'}
+[2.988568] (my_tf2_broadcaster) StdoutLine: {'line': b'running build_py\n'}
+[2.988878] (my_tf2_broadcaster) StdoutLine: {'line': b'running install\n'}
+[2.989129] (my_tf2_broadcaster) StdoutLine: {'line': b'running install_lib\n'}
+[2.991998] (my_tf2_broadcaster) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.999885] (my_tf2_broadcaster) StdoutLine: {'line': b"removing '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages/my_tf2_broadcaster-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.000948] (my_tf2_broadcaster) StdoutLine: {'line': b'Copying ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info to /home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages/my_tf2_broadcaster-0.0.0-py3.10.egg-info\n'}
+[3.003681] (my_tf2_broadcaster) StdoutLine: {'line': b'running install_scripts\n'}
+[3.018874] (-) TimerEvent: {}
+[3.077183] (my_tf2_broadcaster) StdoutLine: {'line': b'Installing tf_broadcaster script to /home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/my_tf2_broadcaster\n'}
+[3.078309] (my_tf2_broadcaster) StdoutLine: {'line': b"writing list of installed files to '/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/install.log'\n"}
+[3.119052] (-) TimerEvent: {}
+[3.144329] (my_tf2_broadcaster) CommandEnded: {'returncode': 0}
+[3.190783] (my_tf2_broadcaster) JobEnded: {'identifier': 'my_tf2_broadcaster', 'rc': 0}
+[3.219460] (-) TimerEvent: {}
+[3.320015] (-) TimerEvent: {}
+[3.420532] (-) TimerEvent: {}
+[3.521160] (-) TimerEvent: {}
+[3.621935] (-) TimerEvent: {}
+[3.723096] (-) TimerEvent: {}
+[3.823701] (-) TimerEvent: {}
+[3.924266] (-) TimerEvent: {}
+[4.024802] (-) TimerEvent: {}
+[4.125565] (-) TimerEvent: {}
+[4.226367] (-) TimerEvent: {}
+[4.326901] (-) TimerEvent: {}
+[4.427461] (-) TimerEvent: {}
+[4.528032] (-) TimerEvent: {}
+[4.628806] (-) TimerEvent: {}
+[4.729409] (-) TimerEvent: {}
+[4.829997] (-) TimerEvent: {}
+[4.930582] (-) TimerEvent: {}
+[5.031136] (-) TimerEvent: {}
+[5.131696] (-) TimerEvent: {}
+[5.232257] (-) TimerEvent: {}
+[5.332845] (-) TimerEvent: {}
+[5.433429] (-) TimerEvent: {}
+[5.533985] (-) TimerEvent: {}
+[5.634591] (-) TimerEvent: {}
+[5.735118] (-) TimerEvent: {}
+[5.835686] (-) TimerEvent: {}
+[5.936268] (-) TimerEvent: {}
+[6.036848] (-) TimerEvent: {}
+[6.137531] (-) TimerEvent: {}
+[6.238239] (-) TimerEvent: {}
+[6.338972] (-) TimerEvent: {}
+[6.439510] (-) TimerEvent: {}
+[6.540065] (-) TimerEvent: {}
+[6.640633] (-) TimerEvent: {}
+[6.741178] (-) TimerEvent: {}
+[6.841734] (-) TimerEvent: {}
+[6.942283] (-) TimerEvent: {}
+[7.042835] (-) TimerEvent: {}
+[7.143373] (-) TimerEvent: {}
+[7.243952] (-) TimerEvent: {}
+[7.344532] (-) TimerEvent: {}
+[7.445084] (-) TimerEvent: {}
+[7.545647] (-) TimerEvent: {}
+[7.646249] (-) TimerEvent: {}
+[7.746798] (-) TimerEvent: {}
+[7.847334] (-) TimerEvent: {}
+[7.948720] (-) TimerEvent: {}
+[8.049303] (-) TimerEvent: {}
+[8.150080] (-) TimerEvent: {}
+[8.250655] (-) TimerEvent: {}
+[8.351213] (-) TimerEvent: {}
+[8.451759] (-) TimerEvent: {}
+[8.552526] (-) TimerEvent: {}
+[8.653108] (-) TimerEvent: {}
+[8.753684] (-) TimerEvent: {}
+[8.854442] (-) TimerEvent: {}
+[8.954986] (-) TimerEvent: {}
+[9.055561] (-) TimerEvent: {}
+[9.156157] (-) TimerEvent: {}
+[9.256773] (-) TimerEvent: {}
+[9.357350] (-) TimerEvent: {}
+[9.457916] (-) TimerEvent: {}
+[9.558554] (-) TimerEvent: {}
+[9.659234] (-) TimerEvent: {}
+[9.759918] (-) TimerEvent: {}
+[9.861058] (-) TimerEvent: {}
+[9.961599] (-) TimerEvent: {}
+[10.062205] (-) TimerEvent: {}
+[10.162696] (-) TimerEvent: {}
+[10.263177] (-) TimerEvent: {}
+[10.363705] (-) TimerEvent: {}
+[10.464268] (-) TimerEvent: {}
+[10.564839] (-) TimerEvent: {}
+[10.665369] (-) TimerEvent: {}
+[10.766055] (-) TimerEvent: {}
+[10.866675] (-) TimerEvent: {}
+[10.967274] (-) TimerEvent: {}
+[11.067875] (-) TimerEvent: {}
+[11.168446] (-) TimerEvent: {}
+[11.268968] (-) TimerEvent: {}
+[11.369553] (-) TimerEvent: {}
+[11.470076] (-) TimerEvent: {}
+[11.570658] (-) TimerEvent: {}
+[11.671147] (-) TimerEvent: {}
+[11.771619] (-) TimerEvent: {}
+[11.872121] (-) TimerEvent: {}
+[11.972647] (-) TimerEvent: {}
+[12.073168] (-) TimerEvent: {}
+[12.173659] (-) TimerEvent: {}
+[12.274237] (-) TimerEvent: {}
+[12.374794] (-) TimerEvent: {}
+[12.475394] (-) TimerEvent: {}
+[12.576031] (-) TimerEvent: {}
+[12.676637] (-) TimerEvent: {}
+[12.777297] (-) TimerEvent: {}
+[12.877887] (-) TimerEvent: {}
+[12.978649] (-) TimerEvent: {}
+[13.079214] (-) TimerEvent: {}
+[13.179748] (-) TimerEvent: {}
+[13.280289] (-) TimerEvent: {}
+[13.380883] (-) TimerEvent: {}
+[13.481455] (-) TimerEvent: {}
+[13.582015] (-) TimerEvent: {}
+[13.682539] (-) TimerEvent: {}
+[13.783211] (-) TimerEvent: {}
+[13.883722] (-) TimerEvent: {}
+[13.984246] (-) TimerEvent: {}
+[14.084773] (-) TimerEvent: {}
+[14.185437] (-) TimerEvent: {}
+[14.285990] (-) TimerEvent: {}
+[14.386481] (-) TimerEvent: {}
+[14.486964] (-) TimerEvent: {}
+[14.587445] (-) TimerEvent: {}
+[14.687965] (-) TimerEvent: {}
+[14.788404] (-) TimerEvent: {}
+[14.888838] (-) TimerEvent: {}
+[14.989297] (-) TimerEvent: {}
+[15.089793] (-) TimerEvent: {}
+[15.190216] (-) TimerEvent: {}
+[15.290754] (-) TimerEvent: {}
+[15.391297] (-) TimerEvent: {}
+[15.491812] (-) TimerEvent: {}
+[15.592337] (-) TimerEvent: {}
+[15.692874] (-) TimerEvent: {}
+[15.793403] (-) TimerEvent: {}
+[15.893912] (-) TimerEvent: {}
+[15.994467] (-) TimerEvent: {}
+[16.095003] (-) TimerEvent: {}
+[16.195533] (-) TimerEvent: {}
+[16.296053] (-) TimerEvent: {}
+[16.396579] (-) TimerEvent: {}
+[16.497122] (-) TimerEvent: {}
+[16.597644] (-) TimerEvent: {}
+[16.698190] (-) TimerEvent: {}
+[16.798700] (-) TimerEvent: {}
+[16.899257] (-) TimerEvent: {}
+[16.999763] (-) TimerEvent: {}
+[17.100311] (-) TimerEvent: {}
+[17.200817] (-) TimerEvent: {}
+[17.301345] (-) TimerEvent: {}
+[17.401848] (-) TimerEvent: {}
+[17.502397] (-) TimerEvent: {}
+[17.602826] (-) TimerEvent: {}
+[17.703393] (-) TimerEvent: {}
+[17.803859] (-) TimerEvent: {}
+[17.904328] (-) TimerEvent: {}
+[18.004789] (-) TimerEvent: {}
+[18.105261] (-) TimerEvent: {}
+[18.205811] (-) TimerEvent: {}
+[18.306346] (-) TimerEvent: {}
+[18.406867] (-) TimerEvent: {}
+[18.507340] (-) TimerEvent: {}
+[18.607841] (-) TimerEvent: {}
+[18.708449] (-) TimerEvent: {}
+[18.809069] (-) TimerEvent: {}
+[18.909601] (-) TimerEvent: {}
+[19.010156] (-) TimerEvent: {}
+[19.110634] (-) TimerEvent: {}
+[19.211152] (-) TimerEvent: {}
+[19.311659] (-) TimerEvent: {}
+[19.412218] (-) TimerEvent: {}
+[19.512874] (-) TimerEvent: {}
+[19.613381] (-) TimerEvent: {}
+[19.713959] (-) TimerEvent: {}
+[19.780824] (laser_republisher_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser_republisher\x1b[0m\n'}
+[19.814192] (-) TimerEvent: {}
+[19.914703] (-) TimerEvent: {}
+[20.015292] (-) TimerEvent: {}
+[20.115806] (-) TimerEvent: {}
+[20.216431] (-) TimerEvent: {}
+[20.317298] (-) TimerEvent: {}
+[20.417887] (-) TimerEvent: {}
+[20.518451] (-) TimerEvent: {}
+[20.618967] (-) TimerEvent: {}
+[20.719440] (-) TimerEvent: {}
+[20.819983] (-) TimerEvent: {}
+[20.920524] (-) TimerEvent: {}
+[20.946678] (laser_republisher_pkg) StdoutLine: {'line': b'[100%] Built target laser_republisher\n'}
+[20.973582] (laser_republisher_pkg) CommandEnded: {'returncode': 0}
+[21.020668] (-) TimerEvent: {}
+[21.027412] (laser_republisher_pkg) JobProgress: {'identifier': 'laser_republisher_pkg', 'progress': 'install'}
+[21.056228] (laser_republisher_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg'], 'cwd': '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pohrselvan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pohrselvan'), ('OLDPWD', '/home/pohrselvan'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1446'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pohrselvan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pohrselvan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1419,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8648149_354c_4f08_80e9_0e30e842355e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pohrselvan/ros2_ws/src/build/laser_republisher_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble')]), 'shell': False}
+[21.084584] (laser_republisher_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.085143] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/laser_republisher_pkg/laser_republisher\n'}
+[21.098128] (laser_republisher_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/lib/laser_republisher_pkg/laser_republisher" to ""\n'}
+[21.098713] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/ament_index/resource_index/package_run_dependencies/laser_republisher_pkg\n'}
+[21.099127] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/ament_index/resource_index/parent_prefix_path/laser_republisher_pkg\n'}
+[21.099378] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/ament_prefix_path.sh\n'}
+[21.102466] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/ament_prefix_path.dsv\n'}
+[21.102842] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/path.sh\n'}
+[21.103134] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/path.dsv\n'}
+[21.103406] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.bash\n'}
+[21.103741] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.sh\n'}
+[21.104128] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.zsh\n'}
+[21.104489] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.dsv\n'}
+[21.104782] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.dsv\n'}
+[21.105082] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/ament_index/resource_index/packages/laser_republisher_pkg\n'}
+[21.105365] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/cmake/laser_republisher_pkgConfig.cmake\n'}
+[21.105606] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/cmake/laser_republisher_pkgConfig-version.cmake\n'}
+[21.105831] (laser_republisher_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg/share/laser_republisher_pkg/package.xml\n'}
+[21.118319] (laser_republisher_pkg) CommandEnded: {'returncode': 0}
+[21.121307] (-) TimerEvent: {}
+[21.212713] (laser_republisher_pkg) JobEnded: {'identifier': 'laser_republisher_pkg', 'rc': 0}
+[21.215766] (july_9) JobStarted: {'identifier': 'july_9'}
+[21.222648] (-) TimerEvent: {}
+[21.242548] (july_9) JobProgress: {'identifier': 'july_9', 'progress': 'cmake'}
+[21.242719] (july_9) JobProgress: {'identifier': 'july_9', 'progress': 'build'}
+[21.243526] (july_9) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pohrselvan/ros2_ws/src/build/july_9', '--', '-j4', '-l4'], 'cwd': '/home/pohrselvan/ros2_ws/src/build/july_9', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pohrselvan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pohrselvan'), ('OLDPWD', '/home/pohrselvan'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1446'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pohrselvan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pohrselvan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1419,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8648149_354c_4f08_80e9_0e30e842355e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pohrselvan/ros2_ws/src/build/july_9'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble')]), 'shell': False}
+[21.322849] (-) TimerEvent: {}
+[21.345858] (july_9) CommandEnded: {'returncode': 0}
+[21.396124] (july_9) JobProgress: {'identifier': 'july_9', 'progress': 'install'}
+[21.396802] (july_9) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pohrselvan/ros2_ws/src/build/july_9'], 'cwd': '/home/pohrselvan/ros2_ws/src/build/july_9', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pohrselvan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pohrselvan'), ('OLDPWD', '/home/pohrselvan'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1446'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pohrselvan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pohrselvan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1419,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8648149_354c_4f08_80e9_0e30e842355e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pohrselvan/ros2_ws/src/build/july_9'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble')]), 'shell': False}
+[21.415467] (july_9) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.419169] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description\n'}
+[21.419569] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/chassis.xacro\n'}
+[21.419843] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/lidar.xacro\n'}
+[21.420090] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/inertial.xacro\n'}
+[21.420333] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/gazebo_control.xacro\n'}
+[21.420578] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot.urdf.xacro\n'}
+[21.420822] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/imu.xacro\n'}
+[21.421071] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/ros2_control_wheel.xacro\n'}
+[21.421317] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot_core.xacro\n'}
+[21.422437] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch\n'}
+[21.422727] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/robot_igvc_world.launch.py\n'}
+[21.422963] (-) TimerEvent: {}
+[21.423709] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/new_launch_sim.launch.py\n'}
+[21.424689] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/rsp.launch.py\n'}
+[21.424948] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/launch_sim.launch.py\n'}
+[21.425170] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/ spawn_robot.launch.py\n'}
+[21.425386] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config\n'}
+[21.425600] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/wheel_controller.yaml\n'}
+[21.425814] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config.rviz\n'}
+[21.427432] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/mapper_params_online_async.yaml\n'}
+[21.428575] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config_2.rviz\n'}
+[21.428839] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds\n'}
+[21.429074] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds/orange_world.world\n'}
+[21.429297] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds/modified_igvc.world\n'}
+[21.429515] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds/orange_igvc.world\n'}
+[21.429743] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/package_run_dependencies/july_9\n'}
+[21.429972] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/parent_prefix_path/july_9\n'}
+[21.430250] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.sh\n'}
+[21.430541] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.dsv\n'}
+[21.430760] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.sh\n'}
+[21.431555] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.dsv\n'}
+[21.431781] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.bash\n'}
+[21.432000] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.sh\n'}
+[21.432215] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.zsh\n'}
+[21.432430] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.dsv\n'}
+[21.432646] (july_9) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.dsv\n'}
+[21.432867] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/packages/july_9\n'}
+[21.433083] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config.cmake\n'}
+[21.433325] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config-version.cmake\n'}
+[21.433524] (july_9) StdoutLine: {'line': b'-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.xml\n'}
+[21.433740] (july_9) CommandEnded: {'returncode': 0}
+[21.515926] (july_9) JobEnded: {'identifier': 'july_9', 'rc': 0}
+[21.517861] (-) EventReactorShutdown: {}

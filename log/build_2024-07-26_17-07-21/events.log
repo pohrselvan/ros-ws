@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000431] (-) JobUnselected: {'identifier': 'july_9'}
+[0.001098] (laser_republisher_pkg) JobQueued: {'identifier': 'laser_republisher_pkg', 'dependencies': OrderedDict()}
+[0.001145] (laser_republisher_pkg) JobStarted: {'identifier': 'laser_republisher_pkg'}
+[0.008465] (laser_republisher_pkg) JobProgress: {'identifier': 'laser_republisher_pkg', 'progress': 'cmake'}
+[0.009021] (laser_republisher_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/pohrselvan/ros2_ws/src/laser_republisher_pkg', '-DCMAKE_INSTALL_PREFIX=/home/pohrselvan/ros2_ws/install/laser_republisher_pkg'], 'cwd': '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pohrselvan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pohrselvan'), ('OLDPWD', '/home/pohrselvan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pohrselvan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pohrselvan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1427,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1427'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6748084_60a4_40cb_8a31_8f5d22754c6e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.212'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble')]), 'shell': False}
+[0.022832] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099667] (-) TimerEvent: {}
+[0.146430] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.173253] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.175523] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.180882] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.191517] (laser_republisher_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199759] (-) TimerEvent: {}
+[0.206205] (laser_republisher_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.260206] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.261626] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299830] (-) TimerEvent: {}
+[0.375087] (laser_republisher_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399942] (-) TimerEvent: {}
+[0.500188] (-) TimerEvent: {}
+[0.516050] (laser_republisher_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.600293] (-) TimerEvent: {}
+[0.690932] (laser_republisher_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.699463] (laser_republisher_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.700369] (-) TimerEvent: {}
+[0.700846] (laser_republisher_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/pohrselvan/ros2_ws/build/laser_republisher_pkg\n'}
+[0.707139] (laser_republisher_pkg) CommandEnded: {'returncode': 0}
+[0.708305] (laser_republisher_pkg) JobProgress: {'identifier': 'laser_republisher_pkg', 'progress': 'build'}
+[0.708697] (laser_republisher_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pohrselvan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pohrselvan'), ('OLDPWD', '/home/pohrselvan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pohrselvan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pohrselvan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1427,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1427'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6748084_60a4_40cb_8a31_8f5d22754c6e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.212'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble')]), 'shell': False}
+[0.754334] (laser_republisher_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_republisher.dir/src/laser_republisher_node.cpp.o\x1b[0m\n'}
+[0.800470] (-) TimerEvent: {}
+[0.900754] (-) TimerEvent: {}
+[1.001054] (-) TimerEvent: {}
+[1.101427] (-) TimerEvent: {}
+[1.201755] (-) TimerEvent: {}
+[1.302069] (-) TimerEvent: {}
+[1.402396] (-) TimerEvent: {}
+[1.502724] (-) TimerEvent: {}
+[1.603020] (-) TimerEvent: {}
+[1.703314] (-) TimerEvent: {}
+[1.803601] (-) TimerEvent: {}
+[1.903889] (-) TimerEvent: {}
+[2.004236] (-) TimerEvent: {}
+[2.104486] (-) TimerEvent: {}
+[2.204739] (-) TimerEvent: {}
+[2.304992] (-) TimerEvent: {}
+[2.405262] (-) TimerEvent: {}
+[2.505617] (-) TimerEvent: {}
+[2.605890] (-) TimerEvent: {}
+[2.706190] (-) TimerEvent: {}
+[2.806454] (-) TimerEvent: {}
+[2.906816] (-) TimerEvent: {}
+[3.007100] (-) TimerEvent: {}
+[3.107363] (-) TimerEvent: {}
+[3.207655] (-) TimerEvent: {}
+[3.307894] (-) TimerEvent: {}
+[3.408121] (-) TimerEvent: {}
+[3.508373] (-) TimerEvent: {}
+[3.608657] (-) TimerEvent: {}
+[3.708932] (-) TimerEvent: {}
+[3.809238] (-) TimerEvent: {}
+[3.909574] (-) TimerEvent: {}
+[4.009864] (-) TimerEvent: {}
+[4.110101] (-) TimerEvent: {}
+[4.210335] (-) TimerEvent: {}
+[4.310621] (-) TimerEvent: {}
+[4.410914] (-) TimerEvent: {}
+[4.511179] (-) TimerEvent: {}
+[4.611455] (-) TimerEvent: {}
+[4.711793] (-) TimerEvent: {}
+[4.812052] (-) TimerEvent: {}
+[4.912358] (-) TimerEvent: {}
+[5.012727] (-) TimerEvent: {}
+[5.113013] (-) TimerEvent: {}
+[5.213286] (-) TimerEvent: {}
+[5.313557] (-) TimerEvent: {}
+[5.413875] (-) TimerEvent: {}
+[5.514249] (-) TimerEvent: {}
+[5.614558] (-) TimerEvent: {}
+[5.714898] (-) TimerEvent: {}
+[5.815147] (-) TimerEvent: {}
+[5.915422] (-) TimerEvent: {}
+[6.015739] (-) TimerEvent: {}
+[6.115945] (-) TimerEvent: {}
+[6.216211] (-) TimerEvent: {}
+[6.316483] (-) TimerEvent: {}
+[6.416792] (-) TimerEvent: {}
+[6.517105] (-) TimerEvent: {}
+[6.617418] (-) TimerEvent: {}
+[6.717670] (-) TimerEvent: {}
+[6.817937] (-) TimerEvent: {}
+[6.918212] (-) TimerEvent: {}
+[7.018440] (-) TimerEvent: {}
+[7.118734] (-) TimerEvent: {}
+[7.219079] (-) TimerEvent: {}
+[7.319379] (-) TimerEvent: {}
+[7.419664] (-) TimerEvent: {}
+[7.519923] (-) TimerEvent: {}
+[7.620268] (-) TimerEvent: {}
+[7.720593] (-) TimerEvent: {}
+[7.820894] (-) TimerEvent: {}
+[7.921196] (-) TimerEvent: {}
+[8.021522] (-) TimerEvent: {}
+[8.121831] (-) TimerEvent: {}
+[8.222163] (-) TimerEvent: {}
+[8.322521] (-) TimerEvent: {}
+[8.422793] (-) TimerEvent: {}
+[8.523071] (-) TimerEvent: {}
+[8.623324] (-) TimerEvent: {}
+[8.723594] (-) TimerEvent: {}
+[8.771835] (laser_republisher_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser_republisher\x1b[0m\n'}
+[8.823710] (-) TimerEvent: {}
+[8.923999] (-) TimerEvent: {}
+[9.024530] (-) TimerEvent: {}
+[9.124815] (-) TimerEvent: {}
+[9.205371] (laser_republisher_pkg) StdoutLine: {'line': b'[100%] Built target laser_republisher\n'}
+[9.215363] (laser_republisher_pkg) CommandEnded: {'returncode': 0}
+[9.224921] (-) TimerEvent: {}
+[9.237501] (laser_republisher_pkg) JobProgress: {'identifier': 'laser_republisher_pkg', 'progress': 'install'}
+[9.245574] (laser_republisher_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg'], 'cwd': '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pohrselvan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pohrselvan'), ('OLDPWD', '/home/pohrselvan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pohrselvan/ros2_ws/src/install:/home/pohrselvan/orange_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pohrselvan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pohrselvan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pohrselvan-idealPad:@/tmp/.ICE-unix/1427,unix/pohrselvan-idealPad:/tmp/.ICE-unix/1427'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6748084_60a4_40cb_8a31_8f5d22754c6e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.212'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_bringup:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pohrselvan/ros2_ws/build/laser_republisher_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pohrselvan/orange_ros2/install/orange_teleop/lib/python3.10/site-packages:/home/pohrselvan/orange_ros2/install/orange_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble')]), 'shell': False}
+[9.253485] (laser_republisher_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.253750] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/lib/laser_republisher_pkg/laser_republisher\n'}
+[9.257107] (laser_republisher_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/pohrselvan/ros2_ws/install/laser_republisher_pkg/lib/laser_republisher_pkg/laser_republisher" to ""\n'}
+[9.257358] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/ament_index/resource_index/package_run_dependencies/laser_republisher_pkg\n'}
+[9.257528] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/ament_index/resource_index/parent_prefix_path/laser_republisher_pkg\n'}
+[9.257660] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/ament_prefix_path.sh\n'}
+[9.257764] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/ament_prefix_path.dsv\n'}
+[9.257898] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/path.sh\n'}
+[9.258050] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/environment/path.dsv\n'}
+[9.258199] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.bash\n'}
+[9.258289] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.sh\n'}
+[9.258413] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.zsh\n'}
+[9.258904] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/local_setup.dsv\n'}
+[9.259052] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/package.dsv\n'}
+[9.259216] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/ament_index/resource_index/packages/laser_republisher_pkg\n'}
+[9.259482] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/cmake/laser_republisher_pkgConfig.cmake\n'}
+[9.259588] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/cmake/laser_republisher_pkgConfig-version.cmake\n'}
+[9.259711] (laser_republisher_pkg) StdoutLine: {'line': b'-- Installing: /home/pohrselvan/ros2_ws/install/laser_republisher_pkg/share/laser_republisher_pkg/package.xml\n'}
+[9.261677] (laser_republisher_pkg) CommandEnded: {'returncode': 0}
+[9.296520] (laser_republisher_pkg) JobEnded: {'identifier': 'laser_republisher_pkg', 'rc': 0}
+[9.296888] (-) EventReactorShutdown: {}

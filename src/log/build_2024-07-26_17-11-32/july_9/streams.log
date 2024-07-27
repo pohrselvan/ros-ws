@@ -1,0 +1,55 @@
+[0.009s] Invoking command in '/home/pohrselvan/ros2_ws/src/build/july_9': AMENT_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/ros2_ws/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/july_9 -- -j4 -l4
+[0.033s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.159s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.296s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.296s] -- Configured cppcheck include dirs: 
+[0.296s] -- Configured cppcheck exclude dirs and/or files: 
+[0.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.320s] -- Added test 'lint_cmake' to check CMake code style
+[0.328s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.391s] -- Added test 'uncrustify' to check C / C++ code style
+[0.391s] -- Configured uncrustify additional arguments: 
+[0.399s] -- Added test 'xmllint' to check XML markup files
+[0.408s] -- Configuring done
+[0.412s] -- Generating done
+[0.413s] -- Build files have been written to: /home/pohrselvan/ros2_ws/src/build/july_9
+[0.432s] Invoked command in '/home/pohrselvan/ros2_ws/src/build/july_9' returned '0': AMENT_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/ros2_ws/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/july_9 -- -j4 -l4
+[0.453s] Invoking command in '/home/pohrselvan/ros2_ws/src/build/july_9': AMENT_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/ros2_ws/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/july_9
+[0.461s] -- Install configuration: ""
+[0.461s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description
+[0.461s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/chassis.xacro
+[0.461s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/lidar.xacro
+[0.461s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/inertial.xacro
+[0.461s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/gazebo_control.xacro
+[0.461s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot.urdf.xacro
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/imu.xacro
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/ros2_control_wheel.xacro
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot_core.xacro
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch
+[0.462s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/new_launch.launch.py
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/rsp.launch.py
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/launch_sim.launch.py
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/orange_igvc.launch.py
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/wheel_controller.yaml
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config.rviz
+[0.462s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/mapper_params_online_async.yaml
+[0.463s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config_2.rviz
+[0.463s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds
+[0.463s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds/orange_world.world
+[0.463s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/package_run_dependencies/july_9
+[0.463s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/parent_prefix_path/july_9
+[0.463s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.sh
+[0.463s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.dsv
+[0.463s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.sh
+[0.463s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.dsv
+[0.463s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.bash
+[0.463s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.sh
+[0.464s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.zsh
+[0.464s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.dsv
+[0.464s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.dsv
+[0.464s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/packages/july_9
+[0.464s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config.cmake
+[0.464s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config-version.cmake
+[0.464s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.xml
+[0.466s] Invoked command in '/home/pohrselvan/ros2_ws/src/build/july_9' returned '0': AMENT_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pohrselvan/ros2_ws/src/install/laser_republisher_pkg:/home/pohrselvan/ros2_ws/install/laser_republisher_pkg:/home/pohrselvan/orange_ros2/install/orange_slam:/home/pohrselvan/orange_ros2/install/orange_navigation:/home/pohrselvan/orange_ros2/install/orange_gazebo:/home/pohrselvan/orange_ros2/install/orange_description:/home/pohrselvan/orange_ros2/install/orange_sensor_tools:/home/pohrselvan/ros2_ws/src/install/july_9:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/july_9

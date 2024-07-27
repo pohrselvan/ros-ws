@@ -39,7 +39,7 @@ COLCON_CURRENT_PREFIX="/home/pohrselvan/orange_ros2/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 # setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
-COLCON_CURRENT_PREFIX="/home/pohrselvan/ros2_ws/src/july_9/install"
+COLCON_CURRENT_PREFIX="/home/pohrselvan/ros2_ws/src/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 

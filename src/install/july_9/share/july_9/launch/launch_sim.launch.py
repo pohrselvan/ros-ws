@@ -56,26 +56,6 @@ def generate_launch_description():
         arguments=["joint_broad"],
     )
 
-    # this for launching the world
-    world = os.path.join(
-        get_package_share_directory('orange_gazebo'),
-        'worlds',
-        'orange_igvc.world'
-    )
-
-    gzserver_cmd = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')
-        ),
-        launch_arguments={'world': world}.items()
-    )
-    
-    # gzclient_cmd = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
-    #     )
-    # )
-
 
 
     # Launch them all!
@@ -85,6 +65,6 @@ def generate_launch_description():
         spawn_entity,
         diff_drive_spawner,
         joint_board_spawner,
-        gzserver_cmd,
+        
     
     ])

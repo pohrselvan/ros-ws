@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pohrselvan/ros2_ws/src/build/july_9
+-- Install configuration: ""
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/chassis.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/lidar.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/inertial.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/gazebo_control.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot.urdf.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/imu.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/ros2_control_wheel.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot_core.xacro
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/new_launch.launch.py
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/rsp.launch.py
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/launch_sim.launch.py
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/orange_igvc.launch.py
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/wheel_controller.yaml
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config.rviz
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/mapper_params_online_async.yaml
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config_2.rviz
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds/orange_world.world
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/package_run_dependencies/july_9
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/parent_prefix_path/july_9
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.sh
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.sh
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.dsv
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.bash
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.sh
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.zsh
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.dsv
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.dsv
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/packages/july_9
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config.cmake
+-- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config-version.cmake
+-- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.xml

@@ -1,0 +1,21 @@
+[2.094s] Invoking command in '/home/pohrselvan/ros2_ws/src/my_tf2_broadcaster': PYTHONPATH=/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_tf2_broadcaster build --build-base /home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/build install --record /home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/install.log --single-version-externally-managed
+[2.945s] running egg_info
+[2.949s] writing ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/PKG-INFO
+[2.949s] writing dependency_links to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/dependency_links.txt
+[2.954s] writing entry points to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/entry_points.txt
+[2.954s] writing requirements to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/requires.txt
+[2.954s] writing top-level names to ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/top_level.txt
+[2.959s] package init file 'src/__init__.py' not found (or not a regular file)
+[2.959s] reading manifest file '../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/SOURCES.txt'
+[2.961s] writing manifest file '../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info/SOURCES.txt'
+[2.965s] running build
+[2.965s] running build_py
+[2.965s] running install
+[2.966s] running install_lib
+[2.969s] running install_egg_info
+[2.977s] removing '/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages/my_tf2_broadcaster-0.0.0-py3.10.egg-info' (and everything under it)
+[2.978s] Copying ../build/my_tf2_broadcaster/my_tf2_broadcaster.egg-info to /home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages/my_tf2_broadcaster-0.0.0-py3.10.egg-info
+[2.980s] running install_scripts
+[3.054s] Installing tf_broadcaster script to /home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/my_tf2_broadcaster
+[3.055s] writing list of installed files to '/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/install.log'
+[3.121s] Invoked command in '/home/pohrselvan/ros2_ws/src/my_tf2_broadcaster' returned '0': PYTHONPATH=/home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pohrselvan/ros2_ws/src/install/my_tf2_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_tf2_broadcaster build --build-base /home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/build install --record /home/pohrselvan/ros2_ws/src/build/my_tf2_broadcaster/install.log --single-version-externally-managed

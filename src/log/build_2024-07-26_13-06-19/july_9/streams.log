@@ -1,0 +1,41 @@
+[0.011s] Invoking command in '/home/pohrselvan/ros2_ws/src/build/july_9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/july_9 -- -j4 -l4
+[0.061s] Invoked command in '/home/pohrselvan/ros2_ws/src/build/july_9' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pohrselvan/ros2_ws/src/build/july_9 -- -j4 -l4
+[0.087s] Invoking command in '/home/pohrselvan/ros2_ws/src/build/july_9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/july_9
+[0.095s] -- Install configuration: ""
+[0.095s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description
+[0.095s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/chassis.xacro
+[0.095s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/lidar.xacro
+[0.095s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/inertial.xacro
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/gazebo_control.xacro
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot.urdf.xacro
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/imu.xacro
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/ros2_control_wheel.xacro
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/robot_description/robot_core.xacro
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/new_launch.launch.py
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/rsp.launch.py
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/launch_sim.launch.py
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/launch/orange_igvc.launch.py
+[0.096s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/wheel_controller.yaml
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config.rviz
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/mapper_params_online_async.yaml
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/config/rviz_config_2.rviz
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/worlds/orange_world.world
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/package_run_dependencies/july_9
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/parent_prefix_path/july_9
+[0.097s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.sh
+[0.098s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/ament_prefix_path.dsv
+[0.098s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.sh
+[0.098s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/environment/path.dsv
+[0.099s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.bash
+[0.099s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.sh
+[0.099s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.zsh
+[0.099s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/local_setup.dsv
+[0.099s] -- Installing: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.dsv
+[0.099s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/ament_index/resource_index/packages/july_9
+[0.099s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config.cmake
+[0.100s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/cmake/july_9Config-version.cmake
+[0.100s] -- Up-to-date: /home/pohrselvan/ros2_ws/src/install/july_9/share/july_9/package.xml
+[0.100s] Invoked command in '/home/pohrselvan/ros2_ws/src/build/july_9' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pohrselvan/orange_ros2/install/orange_teleop:/home/pohrselvan/orange_ros2/install/orange_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pohrselvan/ros2_ws/src/build/july_9
